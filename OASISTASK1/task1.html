@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="task1.css">
+
+  <!-- for contact section design
+  <link rel="stylesheet" href="resumeproject.css"> -->
+
+
+  <script src="https://kit.fontawesome.com/5f12c611d4.js" crossorigin="anonymous"></script>
+</head>
+<style>
+  /* SITE NAME */
+  @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+  /* Basic text */
+  @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+  /*style for promise section3 */
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+</style>
+
+<body>
+  <header>
+    <center>
+      <div class="header">
+        EXTRA 15% OFF ON PURCHASE OF ₹3999 OR MORE
+      </div>
+    </center>
+  </header>
+
+  <nav class="navbar">
+    <div class="sitename">
+      ISHITA'S CLOSET<i class="fa-solid fa-gem" style="display:inline-block;"></i>
+
+    </div>
+    <ul class="listnavbar">
+      <!-- making dropdown using anchor tag links -->
+
+      <!-- <li ><a href="#new">NEW</a>
+        <div id="new" >
+          <a href="#">new kurties</a>
+          <p>happy shopping</p>
+          <a href="#">X</a>
+        </div>
+      
+      </li> -->
+
+      <!-- making dropdown using links and buttons -->
+      <!-- after seeing w3 school -->
+
+      <li class="dropdown"><button class="dropbtn"><a href="#new">NEW</a></button>
+        <div id="new">
+          <a href="#"> kurties</a><br>
+          <a href="#">Sarees</a><br>
+          <a href="#">Kurti set </a>
+
+        </div>
+      </li>
+
+
+      <li class="dropdown" id="kurtas"><button class="dropbtn"><a href="#">KURTAS</a></button>
+        <div id="kurtadropdown">
+          <a href="#">Casual Kurties</a>
+          <a href="#">Party Wear </a>
+          <a href="#">Festival </a>
+
+        </div>
+      </li>
+
+      <li id="suits"><a href="#">SUITS</a></li>
+      <li id="sarees"><a href="#">SAREES</a></li>
+      <li id="dresses"><a href="#">DRESSES</a></li>
+      <li id="bottom_wear"><a href="#">BOTTOM WEAR</a></li>
+      <li id="sale"><a href="#">SALE</a></li>
+      <span class="search-span">
+        <i class="fa-solid fa-magnifying-glass searchicon1 "></i>
+        <input type="text" CLASS="search " placeholder="SEARCH">
+        <i class="fa-solid fa-cart-shopping searchicon"></i>
+        <i class="fa-solid fa-user searchicon"></i>
+      </span>
+
+    </ul>
+    <!-- <span></span>
+           <i class="fa-solid fa-magnifying-glass searchicon "></i>
+      <input type="text" CLASS="search" placeholder="SEARCH" > -->
+
+
+
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- <img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/pre-buzz-desktop_1512x.gif?v=1659536553"
+          class="d-block w-100" alt="..."> -->
+        <img src="./slider1IC.png" class="d-block w-100" style="height: 33rem;">
+      </div>rem
+      <div class="carousel-item">
+        <!-- <img
+          src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/desktop-banner_aa027117-89bc-4dd3-9909-e2dbefd56033_1512x.jpg?v=1657087722"
+          class="d-block w-100" alt="..."> -->
+        <img src="./slider2.png" class="d-block w-100" style="height: 33rem;">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+  </div>
+
+  <section class="section-1">
+    <center>
+      <div class="container-heading">
+        SHOP OUR FEATURED PRODUCT
+      </div>
+    </center>
+    <div class="container">
+
+      <div class="item"><img src="./Silk Kurties.png" style="width:34rem; height:31rem"></div>
+      <div class="item"><img src="./Silk Kurties (2).png" style="width:34rem; height:31rem"></div>
+      <div class="item"><img src="./Silk Kurties (6).png" style="width:34rem; height:31rem"></div>
+      <div class="item"><img src="./Silk Kurties (3).png" style="width:34rem; height:31rem"></div>
+      <div class="item"><img src="./Silk Kurties (5).png" style="width:34rem; height:31rem"></div>
+      <div class="item"><img src="./Silk Kurties (4).png" style="width:34rem; height:31rem"></div>
+      <!-- <div class="item"><img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/bottoms_0a4e7125-33a1-450d-91e3-e99da85bc2b2_540x.jpg?v=1657088123"></div>
+    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/extra-love_6f03bc75-bc5a-47b6-a735-772752e79b3e_540x.jpg?v=1657088201"></div>
+    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/lehengas_3cdb61f7-c021-4cf9-8832-e11d3159611f_540x.jpg?v=1657088245"></div>
+    <div class="item"><img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/loungwear_61ec8669-0272-4602-873f-65814ae10f9c_540x.jpg?v=1657088304"></div> -->
+
+
+    </div>
+  </section>
+  <!-- 
+  <section class="section-2">
+    <Center>
+      <div class="section2-heading">
+        SHOP BY COLLECTION
+      </div>
+    </Center>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/summer-festive-edit_720x.jpg?v=1657088433"
+          class="card-img-top" alt="...">
+
+      </div>
+      <div class="card">
+        <img src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/workwear_720x.jpg?v=1657088447"
+          class="card-img-top" alt="...">
+
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0341/4805/7228/files/bandhani_d59f0c88-b1df-4ae7-973f-e65e5ef03bef_720x.jpg?v=1657088496"
+          class="card-img-top" alt="...">
+
+      </div>
+    </div>
+
+  </section> -->
+
+
+  <!-- trying grids in sliders -->
+  <section class="section-2">
+    <Center>
+      <div class="section2-heading">
+        SHOP BY COLLECTION
+      </div>
+    </Center><br>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="sliders-grid">
+            <div>
+              <img src="./Copy of KURTAS.png" class="grid-image">
+            </div>
+
+            <div>
+              <img src="./Copy of KURTAS (1).png" class="grid-image">
+            </div>
+
+            <div>
+              <img src="./Copy of KURTAS (2).png" class="grid-image">
+            </div>
+
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="sliders-grid">
+            <div>
+              <img src="./Kurtas (4).png" class="grid-image">
+            </div>
+
+            <div>
+              <img src="Silk Kurties.png" class="grid-image">
+            </div>
+
+            <div>
+              <img src="Silk Kurties (5).png" class="grid-image">
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <div class="carousel-item">
+        <div class="sliders-grid">
+          <div >
+           <img src="./Kurtas (4).png" class="grid-image">
+          </div>
+       
+          <div >
+           <img src="Silk Kurties.png" class="grid-image">
+          </div>
+       
+          <div >
+           <img src="Silk Kurties.png" class="grid-image">
+          </div>
+       
+         </div>
+       
+      </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><br>
+  </section>
+
+
+  <!-- grid code -->
+  <!-- <div class="sliders-grid">
+   <div >
+    <img src="./Kurtas (4).png" class="grid-image">
+   </div>
+
+   <div >
+    <img src="Silk Kurties.png" class="grid-image">
+   </div>
+
+   <div >
+    <img src="Silk Kurties.png" class="grid-image">
+   </div>
+
+  </div> -->
+
+
+
+
+  <!-- end grid -->
+
+  <section class="section-3">
+    <HR>
+    <!-- <center><div class="section3-heading">OUR PROMISE</div></center> -->
+
+    <div class="card-group">
+      <div class="card">
+        <center><i class="fa-solid fa-truck-fast card-image"></i> </center>
+        <div class="card-body">
+          <center>
+            <h5 class="card-title">Free Shipping</h5>
+          </center>
+
+        </div>
+
+      </div>
+      <div class="card ">
+        <center><i class="fa-solid fa-arrow-right-arrow-left card-image"></i></center>
+        <div class="card-body">
+          <center>
+            <h5 class="card-title ">Easy Returns</h5>
+          </center>
+
+        </div>
+      </div>
+
+      <div class="card ">
+        <center><i class="fa-solid fa-comment card-image"></i></center>
+        <div class="card-body">
+          <center>
+            <h5 class="card-title">Online Support</h5>
+          </center>
+
+        </div>
+      </div>
+
+      <div class="card ">
+        <center><i class="fa-solid fa-credit-card card-image"></i></center>
+        <div class="card-body">
+          <center>
+            <h5 class="card-title">Flexible Payments</h5>
+          </center>
+
+        </div>
+      </div>
+
+    </div>
+    <HR>
+
+  </section>
+
+  <!-- contact section copied from resume portfolio -->
+
+  <section>
+
+    <div class="cotact-section">
+
+      <center>
+        <h1 class="section2-heading">
+          <span><i class="fa-solid fa-address-card"></i></span>
+          <span>Contact</span>
+        </h1>
+      </center>
+
+      <div class="contact-content">
+        <div class="contact-form" id="contact-container">
+          <div id="contact-form">
+            <input type="text" id="username" class="contact-design" placeholder="Your Name">
+            <br><br>
+            <input type="email" id="email" class="contact-design" placeholder="Your Email">
+            <br><br>
+            <textarea placeholder="Message" rows="3px" cols="30px" class="contact-design"></textarea>
+            <br><br>
+          </div>
+          <button type="submit" CLASS="submit-button">SEND MESSAGE</button>
+
+          <div id="contact-aside">
+            <h1>Get in touch!</h1><Br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium perspiciatis minus porro
+              asperiores commodi magni ullam temporibus vero quaerat quis, voluptate molestiae sequi corporis
+              et numquam ad architecto minima maxime.</p><br><br><BR>
+
+            <h3 class="aside-content">
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <span>Indore,India</span>
+            </h3><br>
+
+            <h3 class="aside-content">
+              <span><i class="fa-solid fa-mobile-screen"></i></span>
+              <span>9669024648</span>
+            </h3><br>
+
+            <h3 class="aside-content">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <span>ishitaporwal47@gmail.com</span>
+            </h3><br><br><Br>
+
+
+          </div>
+
+
+        </div>
+
+
+  </section>
+
+  
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,489 @@
+.header{
+    background-color: rgb(253, 110, 137);
+    /* background-color: rgb(253, 199, 152)  ; */
+    /* background-image: linear-gradient(rgb(253, 155, 173),rgb(248, 205, 168) 30%); */
+    /* height: 1.5rem; */
+    padding: 8px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar
+{
+   
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+}
+
+.sitename
+{
+    font-family: 'Mouse Memoirs', sans-serif;
+    float: left;
+    padding: 5px;
+    color: rgb(136, 17, 136);
+    /* color: rgb(248, 219, 164); */
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 35px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    transition: all 1s ease-in-out; 
+    
+}
+
+.sitename:hover{
+    text-decoration: underline;
+    text-shadow: 1.5px 1.5px 1px lightgray;
+    letter-spacing: 3.5px;
+    transition: all 0.35s ease-in-out; 
+}
+
+.listnavbar{
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+    /* margin-right: 100px; */
+    margin-top: 18px;
+    
+}
+
+.listnavbar li{
+    float: left;
+    /* margin: 6px; */
+    padding: 13px;
+   
+    
+}
+
+.listnavbar a{
+    color: black;
+    text-decoration: none;
+    /* transition: all 0.35s ease-in-out;  */
+    font-size: 15px;
+   
+}
+
+.listnavbar a:hover{
+    text-decoration: underline;
+    /* font-size: 16.5px; */
+    /* text-shadow: 1.5px 1.5px 1px white; */
+    font-weight: bolder;
+    /* transform: scale(1.10); */
+}
+
+
+.searchicon1{
+    
+    display: inline-block;
+    /* margin: 5px; */
+    font-size: 18px;
+    transition: all 1s ease-in-out; 
+    margin-left: 120px;
+   
+   }
+
+   .searchicon1:hover
+   {
+    box-shadow: 3px 3px 3px rgb(168, 166, 166);
+    /* font-size: 20px;
+    transform: scale(1.05); */
+   }
+
+   .searchicon{
+    
+    display: inline-block;
+    /* margin: 5px; */
+    font-size: 18px;
+    transition: all 1s ease-in-out; 
+    padding: 2px;
+    
+   
+   }
+   .searchicon:hover
+   {
+    box-shadow: 3px 3px 3px rgb(168, 166, 166);
+    font-size: 20px;
+    transform: scale(1.25);
+   }
+
+.search{
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 12px;
+   /* margin-left: 10rem; */
+    display: inline-block;
+    margin-top: 16px;
+    /* border: none; */
+    border-bottom: 2px solid black;
+    /* outline: none; */
+    transition: all 1s ease-in-out;
+ 
+    
+    
+   }
+    .search:hover
+   {
+    /* border-bottom: 2px solid black; */
+    box-shadow: 3px 3px 3px rgb(168, 166, 166);
+   
+    /* transform: scale(1.05); */
+   } 
+
+   /* designing the navigation hover */
+
+   #new{
+    /* height: 0;
+    width: 0;
+    overflow: hidden; */
+    position: fixed;
+    top: 100px;
+    left: 25.25px;
+    transition: all 1s ease-in-out;
+    display: none;
+
+    }
+
+    /* #new:hover{
+        height: 20%;
+        width: 20%;
+        background-color: bisque;
+        border: 2px solid black;
+        top: 100px;
+        left: 25.25rem;
+        z-index: 2;
+        display: block;
+    } */
+    .dropbtn{
+        border: none;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        
+    }
+
+    .dropdown:hover #new{
+        display: block;
+        top: 100px;
+        left: 20.05rem;
+        z-index: 2;
+    }
+
+    #kurtadropdown{
+     position: fixed;
+    top: 100px;
+    left: 18.25px;
+    
+    display: none;
+    }
+
+    #kurtadropdown a{
+    display:block;
+    }
+
+    .dropdown:hover #kurtadropdown{
+        display: block;
+        top: 100px;
+        left: 25.05rem;
+        z-index: 2;
+        transition: all 1s ease-in-out;
+    }
+
+
+   /* Designing the section 1 */
+   .section-1{
+   background-color: lightgoldenrodyellow;
+   }
+
+   .container-heading{
+    margin-top: 20px;
+    font-size: 2.25rem;
+    display: inline-block;
+    background-color: rgb(252, 252, 223);
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 1.75px;
+    transition: all 0.25s ease-in-out;
+   }
+
+   .container-heading:hover{
+    box-shadow: 3px 3px 2px lightgrey;
+    font-size: 2.35rem;
+    font-weight: 600;
+    transform: scale(1.05);
+
+   }
+
+
+   .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    /* margin-left: -10px; */
+    margin-top: 25px;
+    padding: 10px;
+
+   }
+   
+   .item{
+    padding: 15px;
+    height: auto;
+    width: auto;
+    box-shadow: 4px 4px 3px rgb(179, 178, 178);
+   
+    transition: all 0.5s ease-in-out;
+   
+    /* margin-right:10px ; */
+    margin: 30px;
+    margin-left: -15px;
+    
+   
+   }
+
+   .item:hover{
+    box-shadow: 5px 5px 9px rgb(124, 123, 123);
+    transform: scale(1.05);
+
+   }
+
+   /* Desinging section 2 */
+
+   .section-2{
+    /* background-color: #ffe4e6; */
+    background-image: linear-gradient(rgb(252, 252, 223),#fccbce 20%);
+   }
+   .section2-heading{
+    margin-top: 20px;
+    font-size: 2.25rem;
+    display: inline-block;
+    background-color: rgb(252, 252, 223);
+    padding: 8px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 1.75px;
+    transition: all 0.25s ease-in-out;
+  
+   }
+
+   .section2-heading:hover
+   {
+    transform: scale(1.05);
+   }
+
+   .card-group{
+    margin: 25px;
+    padding: 20px;
+    
+   }
+   .card{
+    margin: 25px;
+    /* border-radius: 10%; */
+    padding: 15px;
+    /* height: auto;
+    width: auto; */
+    box-shadow: 3px 3px 3px lightgrey;
+    /* margin: 10px; */
+    transition: all 0.25s ease-in-out;
+   }
+
+   .card:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 9px rgb(158, 156, 156);
+    background-color: rgb(141, 157, 173);
+   }
+
+  
+   /* tryings sliders using grid */
+   
+   .sliders-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 10px;
+    height: 5rem;
+    width: 5rem; */
+    margin: 5px;
+    left: -5px;
+   
+   }
+
+   .grid-image{
+    height: 29rem;
+    width: 26rem;
+    margin: 18px;
+    padding: 15px;
+    box-shadow: 3px 3px 3px lightgrey;
+    transition: all 0.25s ease-in-out;
+    background-color: #fff;
+   
+
+   }
+   .grid-image:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 9px rgb(158, 156, 156);
+    background-color: rgb(141, 157, 173);
+   }
+
+   /* designing section  */
+
+   .section-3{
+    /* background-image: linear-gradient(#fccbce,rgb(252, 252, 223) 20%); */
+
+   }
+
+   .card{
+    box-shadow: none;
+    border: none;
+    /* margin-left: -45px; */
+    
+    font-family: 'Playfair Display', serif;
+   
+    background-color:white  ;
+    
+   }
+
+   .card:hover{
+    background-color: rgb(252, 252, 223);
+    box-shadow: none;
+    transition: none;
+    transform: none;
+    
+   }
+
+   .card2{
+    left: -70px;
+
+   }
+
+   .card3{
+    left: -100px;
+   }
+
+   .card-image{
+    font-size: 5rem;
+    margin: 25px;
+    
+    
+   }
+
+   .card-title{
+    font-size: 1.50rem;
+    margin-bottom: -2px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+   
+   }
+
+   .section3-heading{
+    margin-top: 25px;
+    font-size: 2.25rem;
+    display: inline-block;
+    background-color: rgb(252, 252, 223);
+    padding: 8px;
+    letter-spacing: 1.5px;
+    transition: all 0.25s ease-in-out;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+   }
+
+   .section3-heading:hover
+   {
+    transform: scale(1.05);
+   }
+
+   /* contact section copied from resume project */
+
+   #contact-section{
+    background-color: rgb(249, 242, 228);
+}
+#contact-section:hover{
+    background-color:rgb(248, 237, 225);
+}
+
+
+.contact-design{
+   outline: none;
+   border: 0;
+   border-bottom-style:solid;
+   font-size: 20px;
+   color: rgba(95, 37, 150, 0.712);
+   /* margin:5px ; */
+   margin-top: 25px;
+   background-color: rgb(245, 241, 241);
+   margin-left: 10px;
+   padding: 8px;
+   border-radius: 7px;
+
+}
+.submit-button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(2, 2, 39, 0.37);
+    color: white;
+    border: 2px solid rgba(2, 2, 39, 0.37);
+    margin-left: 8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+
+#contact-container{
+    background-color: lightgrey;
+    height: 80%;
+    width: 75%;
+    margin: 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(243, 168, 243),rgb(127, 127, 245));
+    margin-left: 12%;
+}
+
+#contact-container:hover{
+    box-shadow:20px 10px 10px rgba(243, 196, 239, 0.918);
+}
+
+
+
+
+#contact-aside{
+    /* background-color: black; */
+    margin-left: 50%;
+   display: inline-block;
+   margin-top: -24rem;
+   /* height: 20rem; */
+   margin-bottom: -40%;
+   /* border: 2px solid black; */
+   border-left: 2px  double black;
+   padding-left: 5px;
+   
+
+}
+.aside-content{
+    cursor: pointer;
+}
+
+.trial{
+    background-color: antiquewhite;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.div1{
+
+/* z-index: 0; */
+}
+.div1:hover{
+    /* display: none; */
+    z-index: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+   
+}
+/* div2:hover{
+    z-index: 2;
+} */
+
+
+
